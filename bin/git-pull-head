@@ -1,0 +1,5 @@
+#!/bin/sh
+
+HEAD_BRANCH=`git symbolic-ref --short HEAD`
+git pull origin $HEAD_BRANCH
+
