@@ -1,9 +1,0 @@
-#!/bin/sh
-if [ "$#" -lt 1 ]
-then
-  echo "Usage: git diff-head branch {target_file}" >&2
-  echo "exit" >&2
-  exit 1
-fi
-git diff $1..HEAD $2
-
